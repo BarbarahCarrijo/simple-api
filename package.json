@@ -7,6 +7,7 @@
   "license": "MIT",
   "devDependencies": {
     "dotenv": "^8.2.0",
+    "morgan": "^1.9.1",
     "nodemon": "^2.0.2"
   },
   "scripts": {
@@ -15,8 +16,13 @@
   },
   "dependencies": {
     "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
     "consign": "^0.1.6",
     "express": "^4.17.1",
-    "mongoose": "^5.8.10"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.10",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
   }
 }
